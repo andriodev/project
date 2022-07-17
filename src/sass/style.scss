@@ -1,4 +1,28 @@
+@import 'base/variables';
+@import 'base/mixins';
 * {
-    font-family: 'Museo Sans';
+	font-family: 'Museo Sans', sans-serif;
 }
-@import 'variables', 'mixins'
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.tittle {
+	font-size: 30px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #0d0d0d;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+
+
+
+@import 'base/media';
