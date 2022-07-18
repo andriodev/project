@@ -8,20 +8,13 @@
 	margin: 0 auto;
 }
 
-.tittle {
-	font-size: 30px;
-	font-weight: bold;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
-	color: #0d0d0d;
-}
+@import'blocks/titles';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 
 
 
