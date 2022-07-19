@@ -10,6 +10,7 @@
 	}
 }
 
+
 @media(max-width:992px) {
 	.container {
 		max-width: 720px;
@@ -111,6 +112,11 @@
 		&__descr {
 			font-size: 14px;
 			margin-top: 40px;
+		}
+	}
+	.carousel {
+		&__inner {
+			width: 95%;
 		}
 	}
 }
