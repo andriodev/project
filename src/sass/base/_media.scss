@@ -21,6 +21,14 @@
 		}
 	}
 }
+.carousel {
+	.prev {
+		left: 55px;
+	}
+	.next {
+		right: 55px;
+	}
+}
 
 @media(max-width:767px) {
 	.container {
@@ -48,6 +56,11 @@
 		&__descr {
 			font-size: 17px;
 			margin-top: 65px;
+		}
+	}
+	.carousel {
+		.prev, .next {
+			display: none;
 		}
 	}
 }

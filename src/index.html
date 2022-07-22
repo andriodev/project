@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/slick.css">
+	<!-- <link rel="stylesheet" href="css/slick.css"> -->
+	<link rel="stylesheet" href="css/tiny-slider.css">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -111,17 +112,142 @@
 
 	<section class="carousel">
 		<div class="container">
-			<div class="carousel__inner">
-				<div><img src="img/slider/first_screen.jpg" alt="slide_1"></div>
-				<div><img src="img/slider/second_screen.jpg" alt="slide_2"></div>
-				<div><img src="img/slider/third_screen.jpg" alt="slide_3"></div>
-			  </div>
+			<div class="carousel__wrapper">
+				<div class="carousel__inner">
+					<div><img src="img/slider/first_screen.jpg" alt="slide_1"></div>
+					<div><img src="img/slider/second_screen.jpg" alt="slide_2"></div>
+					<div><img src="img/slider/third_screen.jpg" alt="slide_3"></div>
+				</div>
+	
+				<button type="button" class="prev"><img src="icons/left.svg"></button>
+				<button type="button" class="next"><img src="icons/right.svg"></button>
+			</div>
+			
 		</div>
 	</section>
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/slick.min.js"></script>
+	<section class="catalog">
+		<div class="container">
+			<div class="catalog__title">Каталог пульсометров</div>
+			<div class="catalog__tabs">
+				<div class="catalog__tab catalog__tab_active">
+					<div>Для фитнеса</div>
+				</div>
+				<div class="catalog__tab">
+					<div>для бега</div>
+				</div>
+				<div class="catalog__tab">
+					<div>для триатлона</div>
+				</div>
+			</div>
+			
+			<div class="catalog__wrapper">
+				<div class="catalog-item">
+					<img src="img/item_img.png" alt="catalog-item">
+					<div class="catalog-item__subtitle">
+						Пульсометр Polar FT1
+					</div>
+					<div class="catalog-item__descr">
+						Для первых шагов в тренировках, основанных на сердечном ритме
+					</div>
+					<div class="catalog-item__link">
+						ПОДРОБНЕЕ
+					</div>
+					<hr>
+					<div class="catalog-item__price-wrapper">
+						<div>
+							<div class="catalog-item__price-old">4 750 руб.</div>
+							<div class="catalog-item__price">4 500 руб.</div>
+						</div>
+						<div class="catalog-item__btn">КУПИТЬ</div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/item_img.png" alt="catalog-item">
+					<div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
+					<div class="catalog-item__descr">Пульсометр начального уровня с комфортным тканевым ремешком</div>
+					<div class="catalog-item__link">ПОДРОБНЕЕ</div>
+					<hr>
+					<div class="catalog-item__price-wrapper">
+						<div>
+							<div class="catalog-item__price-old">6 990 руб.</div>
+							<div class="catalog-item__price">6 641 руб.</div>
+						</div>
+						<div class="catalog-item__btn">КУПИТЬ</div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/item_img.png" alt="catalog-item">
+					<div class="catalog-item__subtitle">Пульсометр Polar FT4</div>
+					<div class="catalog-item__descr">Улучшенная версия Polar FT1, имеющая следующие улучшения:</div>
+					<div class="catalog-item__link">ПОДРОБНЕЕ</div>
+					<hr>
+					<div class="catalog-item__price-wrapper">
+						<div>
+							<div class="catalog-item__price-old">7 390 руб.</div>
+							<div class="catalog-item__price">7 021 руб.</div>
+						</div>
+						<div class="catalog-item__btn">КУПИТЬ</div>
+					</div>
+				</div>
+			</div>
+			<div class="catalog__wrapper">
+				<div class="catalog-item">
+					<img src="img/item_img.png" alt="catalog-item">
+					<div class="catalog-item__subtitle">
+						Пульсометр Polar FT1
+					</div>
+					<div class="catalog-item__descr">
+						Для первых шагов в тренировках, основанных на сердечном ритме
+					</div>
+					<div class="catalog-item__link">
+						ПОДРОБНЕЕ
+					</div>
+					<hr>
+					<div class="catalog-item__price-wrapper">
+						<div>
+							<div class="catalog-item__price-old">4 750 руб.</div>
+							<div class="catalog-item__price">4 500 руб.</div>
+						</div>
+						<div class="catalog-item__btn">КУПИТЬ</div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/item_img.png" alt="catalog-item">
+					<div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
+					<div class="catalog-item__descr">Пульсометр начального уровня с комфортным тканевым ремешком</div>
+					<div class="catalog-item__link">ПОДРОБНЕЕ</div>
+					<hr>
+					<div class="catalog-item__price-wrapper">
+						<div>
+							<div class="catalog-item__price-old">6 990 руб.</div>
+							<div class="catalog-item__price">6 641 руб.</div>
+						</div>
+						<div class="catalog-item__btn">КУПИТЬ</div>
+					</div>
+				</div>
+				<div class="catalog-item">
+					<img src="img/item_img.png" alt="catalog-item">
+					<div class="catalog-item__subtitle">Пульсометр Polar FT4</div>
+					<div class="catalog-item__descr">Улучшенная версия Polar FT1, имеющая следующие улучшения:</div>
+					<div class="catalog-item__link">ПОДРОБНЕЕ</div>
+					<hr>
+					<div class="catalog-item__price-wrapper">
+						<div>
+							<div class="catalog-item__price-old">7 390 руб.</div>
+							<div class="catalog-item__price">7 021 руб.</div>
+						</div>
+						<div class="catalog-item__btn">КУПИТЬ</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/slick.min.js"></script> -->
+	<script src="js/tiny-slider.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

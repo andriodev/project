@@ -1,0 +1,44 @@
+.catalog {
+	padding-bottom: 103px;
+	&__title {
+		font-size: 30px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: #0d0d0d;
+	}
+	&__tabs {
+		display: flex;
+		justify-content: center;
+		margin-top: 69px;
+		margin-bottom: 59px;
+	}
+	&__tab {
+		width: 220px;
+		height: 50px;
+		border: solid 2px #d0d0d0;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 48px;
+		transform: skewX(-25deg);
+		margin: 0 5px;
+		div {
+			transform: skewX(25deg);
+		}
+		&_active {
+			color:#fff;
+			background-color: $main-color;
+			border: none;
+		}
+		&:hover {
+			box-shadow: 3px 3px #0d0d0d;
+		}
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}

@@ -1,0 +1,90 @@
+.catalog-item {
+	margin-bottom: 20px;
+	height: 440px;
+	width: 300px;
+	border: solid 2px #e8e8e8;
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	&__subtitle {
+		margin-top: 20px;
+		font-size: 16px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: #0d0d0d;
+	}
+	&__descr {
+		margin-top: 16px;
+		font-size: 14px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: #0d0d0d;
+	}
+	&__link {
+		margin-top: 17px;
+		font-size: 14px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: $main-color;
+		text-decoration: underline;
+	}
+	hr {
+		width: 95%;
+		margin: 20px auto;
+	}
+	&__price-wrapper {
+		display: flex;
+		justify-content: space-around;
+	}
+	&__price-old {
+		width: 67px;
+		font-size: 14px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #555;
+		text-decoration: line-through;
+	}
+	&__price {
+		width: 100px;
+		font-size: 20px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #050505;
+	}
+	&__btn {
+		width: 131px;
+		height: 40px;
+		border-radius: 5px;
+		background-color: $main-color;
+		font-size: 14px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 38px;
+		letter-spacing: normal;
+		text-align: center;
+		color: #fff;
+	}
+}
