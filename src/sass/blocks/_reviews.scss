@@ -1,0 +1,82 @@
+.reviews {
+	padding-bottom: 71px;
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 102px;
+		&:first-child {
+			margin-top: 70px;
+		}
+	}
+	&__header {
+		font-size: 18px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #0d0d0d;
+	}
+	&__label {
+		margin-top: 4px;
+		font-size: 14px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #646464;
+	}
+	&__descr {
+		margin-top: 19px;
+		font-size: 16px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #0d0d0d;
+	}
+	&__content {
+		margin-left: 61px;
+	}
+	&_img {
+		width: 169px;
+		height: 169px;
+	}
+	&__xs-content {
+		display: none;
+		div {
+			margin-left: 4px;
+		}
+	}
+	&_xs-img {
+		width: 50px;
+		height: 50px;
+	}
+	&__xs-header {
+		font-size: 14px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #0d0d0d;
+	}
+	&__xs-label {
+		margin-top: 4px;
+		font-size: 10px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #646464;
+	}
+}
