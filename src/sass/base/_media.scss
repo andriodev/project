@@ -38,6 +38,15 @@
 			margin-top: 80px;
 		}
 	}
+	.footer {
+		&__map {
+			height: 578px;
+		}
+		&__info {
+			width: 380px;
+			padding: 40px 53px;
+		}
+	}
 }
 @media(max-width:767px) {
 	.container {
@@ -95,6 +104,20 @@
 		}
 		&_img {
 			margin-left: 45px;
+		}
+	}
+	.footer {
+		&__map {
+			height: 472px;
+		}
+		&__info {
+			width: 350px;
+			height: 217px;
+			padding: 40px 53px;
+		}
+		&__addr {
+			font-size: 15px;
+			margin-bottom: 24px;
 		}
 	}
 }
@@ -210,6 +233,29 @@
 		}
 		&__descr {
 			font-size: 11px;
+		}
+	}
+	.footer {
+		&__map {
+			height: 338px;
+		}
+		&__info {
+			width: 222px;
+			height: 120px;
+			padding: 9px 14px;
+		}
+		&__addr {
+			font-size: 11px;
+			margin-bottom: 17px;
+		}
+		&__phone {
+			font-size: 13px;
+			margin-bottom: 19px;
+		}
+		&__social-item {
+			width: 40px;
+			height: 40px;
+			margin: 0 8px;
 		}
 	}
 }
