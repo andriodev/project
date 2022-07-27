@@ -13,16 +13,28 @@
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
+	transition: 0.5s all;
+	&:hover {
+		background-color: $hover-color;
+	}
 	&_main {
 		margin-top: 67px;
 		width: 300px;
 		height: 50px;
 		font-size: 16px;
+		&:hover {
+			box-shadow: 3px -3px 15px $hover-color;
+			transform: translateX(-10px) translateY(-5px);
+		}
 	}
 	&_submit {
 		width: 100%;
   		height: 55px;
 		font-size: 16px;
+		&:hover {
+			background-image: none;
+			transform: translateY(5px) scale(1.2);
+		}
 	}
 	&_mini {
 		width: 131px;
@@ -30,5 +42,9 @@
 		font-size: 14px;
 		font-weight: 500;
 		line-height: 38px;
+		&:hover {
+			transform: scale(1.2) translateY(5px);
+			background-image: linear-gradient( $main-color,rgb(255, 153, 1));
+		}
 	}
 }

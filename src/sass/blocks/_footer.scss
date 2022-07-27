@@ -57,6 +57,9 @@
 			img {
 				height: 27px;
 			}
+			&:hover {
+				box-shadow: inset 0px 0px 15px #fff;
+			}
 		}
 	}
 }
