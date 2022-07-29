@@ -20,7 +20,7 @@
 		slideBy: '1',
 		autoplay: false,
 		controls: false,
-		nav: false,
+		dots: false,
 		navPosition: 'bottom',
 		mouseDrag: true,
 		loop: true,
@@ -30,7 +30,10 @@
 
 			}, 
 			767: {
-				nav: false
+				settings: {
+					dots: true,
+					arrows:false,
+				}
 			}, 
 			576: {
 
@@ -75,3 +78,26 @@
 
 togleSlide('.catalog-item__link');
 togleSlide('.catalog-item__back');
+
+// modal
+$(document).ready(function(){
+
+$('[data-modal=consultation]').on('click', function () {
+	$('.overlay, #consultation').fadeIn('slow');
+});
+$('.modal__close').on('click', function() {
+	$('.overlay, #consultation, #thanks, #order').fadeOut('slow')
+});
+$('.button_mini').on('click', function() {
+	$('.overlay, #order').fadeIn('slow');
+});
+$('.button_mini').each(function(i){
+	$(this).on('click', function(){
+		$('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+	});
+});
+
+define(["jquery", "jquery.validate"], function( $ ) {
+	$(".consultation-form").validate();
+});
+});

@@ -80,6 +80,9 @@
 		.prev, .next {
 			display: none;
 		}
+		.tns-nav {
+			display: block;
+		}
 	}
 	.catalog-item {
 		padding-left: 10px;
@@ -118,6 +121,16 @@
 		&__addr {
 			font-size: 15px;
 			margin-bottom: 24px;
+		}
+	}
+	.modal{
+		padding: 35px 26px 35px 30px;
+		width: 365px;
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__descr {
+			font-size: 13px;
 		}
 	}
 }
@@ -256,6 +269,14 @@
 			width: 40px;
 			height: 40px;
 			margin: 0 8px;
+		}
+	}
+	.modal {
+		width: 320px;
+		padding: 35px 10px;
+		&__close {
+			right: 5px;
+			top: 5px;
 		}
 	}
 }

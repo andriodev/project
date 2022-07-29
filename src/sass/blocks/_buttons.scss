@@ -14,6 +14,7 @@
 	color: #fff;
 	text-transform: uppercase;
 	transition: 0.5s all;
+	cursor: pointer;
 	&:hover {
 		background-color: $hover-color;
 	}
@@ -31,10 +32,6 @@
 		width: 100%;
   		height: 55px;
 		font-size: 16px;
-		&:hover {
-			background-image: none;
-			transform: translateY(5px) scale(1.2);
-		}
 	}
 	&_mini {
 		width: 131px;
@@ -44,7 +41,7 @@
 		line-height: 38px;
 		&:hover {
 			transform: scale(1.2) translateY(5px);
-			background-image: linear-gradient( $main-color,rgb(255, 153, 1));
+			background-image: linear-gradient( $main-color,$hover-color);
 		}
 	}
 }
