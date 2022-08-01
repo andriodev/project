@@ -49,6 +49,15 @@
 	}
 }
 
+input.error{
+	margin-bottom: 5px;
+	border: 1px solid red;
+}
+
+label {
+	margin-bottom: 15px;
+}
+
 #consultation, #order, #thanks {
 	display: none;
 }
